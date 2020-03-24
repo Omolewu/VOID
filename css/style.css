@@ -1,0 +1,148 @@
+body {
+    color: blue;
+    padding: 5% 0;
+}
+
+.btn-round {
+    border-radius: 15px;
+}
+
+
+/* AlertClinic section */
+
+.alertclinic {
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.col-sm-1 {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    border: 1px solid blue;
+    border-left: none;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    .col-sm-1 {
+        display: none;
+    }
+}
+
+.col-sm-1 img {
+    width: 50px;
+    padding-top: 2px;
+}
+
+.clinic {
+    margin-left: auto;
+    text-align: center;
+}
+
+.clinic p {
+    margin-top: 10px;
+}
+
+
+/*// AlertClinic section */
+
+
+/* help */
+
+.help img,
+.help p,
+.help .button {
+    margin-left: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.help .small {
+    font-size: 10px;
+    text-align: center;
+    margin-left: 45%;
+    padding-bottom: 0px;
+}
+
+
+/*// help */
+
+
+/* System guide */
+
+.systemguide img,
+.systemguide p,
+.systemguide .button {
+    margin-left: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+}
+
+
+/* // System guide */
+
+
+/* support */
+
+.support {
+    padding-top: 8%;
+}
+
+.support span,
+.support label {
+    font-size: 10px;
+}
+
+.support .tell {
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 2%;
+}
+
+.line-request {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.line-request span {
+    font-size: 10px;
+}
+
+.line-request .select-line,
+.line-request .offset-5 {
+    margin-top: 5%;
+}
+
+
+/* // line request */
+
+
+/* emergency */
+
+.emergency .col-sm-3,
+.emergency .col-sm-3 {
+    font-size: 8px;
+    text-align: center;
+    margin-left: 2px;
+    margin-top: 10%;
+}
+
+
+/* //emergency */
+
+
+/* Social*/
+
+.social {
+    margin-top: 10%;
+}
+
+#state {
+    background-color: blue;
+    color: white;
+}
