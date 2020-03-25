@@ -104,6 +104,15 @@ body {
     padding-top: 2%;
 }
 
+#state,
+#lga {
+    background-color: blue;
+    color: white;
+}
+
+
+/* line request */
+
 .line-request {
     margin-top: 5%;
     text-align: center;
@@ -113,9 +122,20 @@ body {
     font-size: 10px;
 }
 
+.line-request .select-line {
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: small;
+}
+
 .line-request .select-line,
 .line-request .offset-5 {
     margin-top: 5%;
+}
+
+.line-request #time {
+    margin-top: 5%;
+    font-size: small;
 }
 
 
@@ -128,8 +148,17 @@ body {
 .emergency .col-sm-3 {
     font-size: 8px;
     text-align: center;
-    margin-left: 2px;
+    margin-left: 0px;
     margin-top: 10%;
+}
+
+.emergency img {
+    width: 200px;
+    margin-left: 12% !important;
+}
+
+.emergency .share-button {
+    margin-top: 10% !important;
 }
 
 
@@ -139,10 +168,30 @@ body {
 /* Social*/
 
 .social {
-    margin-top: 10%;
+    margin-top: 25%;
+    text-align: center;
 }
 
-#state {
+.social .social-button .fab {
+    padding-right: 40px !important;
+    color: black;
+}
+
+.social .social-button {
+    padding-bottom: 10%;
+}
+
+
+/* Partners logo */
+
+.partners .img-fluid {
+    width: 50px;
+}
+
+
+/* //Social*/
+
+#state #lga {
     background-color: blue;
     color: white;
 }
